@@ -1,0 +1,15 @@
+## User stories
+
+- Bronze
+
+*As a user I want to be able to view blogs so that I can view information
+* As a user I want to be able to search for blogs about certain cities so I can visit reccomended activies near me 
+
+- Silver
+* As a user I want to be able to create blogs to add to the main board
+
+-Gold
+* As a user I want to be able to edit/update my blogs so I can maintain their significance
+* As a user I want to be able to delete blogs so that I can resolve errors
+* As a user I want to be able to log in securely to my profile so that I can complete the above two functions
+

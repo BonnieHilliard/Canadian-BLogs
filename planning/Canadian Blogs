@@ -1,0 +1,17 @@
+## app for viewing blogs and information on things to do and places to see in Canada
+
+* my application will be a page displaying blogs about different cities in Canada 
+
+
+# bronze
+- view a list of blogs
+- search or toggle for blogs by city
+
+# silver
+- create blogs 
+
+# gold
+- edit your blog posts 
+- delete your blogs
+-log in to see your accounts page and blogs
+
