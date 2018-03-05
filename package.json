@@ -1,0 +1,28 @@
+{
+  "name": "TOBLOGS",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "handlebars": "^4.0.11",
+    "hbs": "^4.0.1",
+    "mongoose": "^5.0.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BonnieHilliard/Canadian-BLogs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BonnieHilliard/Canadian-BLogs/issues"
+  },
+  "homepage": "https://github.com/BonnieHilliard/Canadian-BLogs#readme"
+}
