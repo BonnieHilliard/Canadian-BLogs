@@ -7,10 +7,9 @@ const app = express();
 
 app.use(express.static("public"));
 app.set("view engine", "hbs");
-//app.use(
 
 app.get("/", (req, res) => {
-  Blogs.find({}).then(blogs => res.render("index", blogs));
+  Blogs.find({}).then(blogs => res.render("index", { blogs }));
 });
 
 app.use("/blogs", blogsControllers);

@@ -1,4 +1,4 @@
-const Blogs = require("./Models/Blogs");
+const Blogs = require("../Models/Blogs");
 
 Blogs.remove({}).then(() => {
   Promise.all([

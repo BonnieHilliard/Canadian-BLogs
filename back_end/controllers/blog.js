@@ -1,14 +1,16 @@
 const express = require("express");
 const router = express.Router();
 const Blogs = require("../Models/Blogs");
-router.get("/blogs/new");
+// router.get("index");
 
-router.get("/new", (req, res) => {
-  res.render("blogs/new");
-});
+// router.get("/", (req, res) => {
+//   blogs.find({}).then(blogs => {
+//     res.render("index", { blogs });
+//   });
+// });
 
-router.get("/new", (req, res) => {
-  res.send("BOO BOO BOO");
-});
+// router.get("/new", (req, res) => {
+//   res.send("BOO BOO BOO");
+// });
 
 module.exports = router;
