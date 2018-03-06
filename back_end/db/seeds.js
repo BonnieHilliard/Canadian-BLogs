@@ -4,12 +4,14 @@ Blogs.remove({}).then(() => {
   Promise.all([
     Blogs.create({
       title: "Where to get good eats in Toronto",
-      blogContent: "Go down to the Local Tavern in Liberty village"
+      blogContent: "Go down to the Local Tavern in Liberty village",
+      blogCategory: "food"
     }),
     Blogs.create({
       title: "Things to do this Saturday",
       blogContent:
-        "Head down to Maple Leaf square to go skating and grab a hot coffee"
+        "Head down to Maple Leaf square to go skating and grab a hot coffee",
+      blogCategory: "entertainment"
     })
   ]).then(() => {
     console.log("done");

@@ -4,12 +4,21 @@ const Blogs = require("./Models/Blogs");
 const blogsControllers = require("./controllers/blog");
 const parser = require("body-parser");
 const app = express();
+const path = require("path");
 
-app.use(express.static("public"));
+app.use(express.static(path.join(__dirname, "public")));
+//app.use(express.static("public"));
+
+//app.use("/static", express.static("public"));
+//app.use(express.static("public"));
 app.set("view engine", "hbs");
 
 app.get("/", (req, res) => {
   Blogs.find({}).then(blogs => res.render("index", { blogs }));
+});
+
+app.get("/blogs/new", (req, res) => {
+  Blogs.find({}).then(blogs => res.render("./blogs/new", { blogs }));
 });
 
 app.use("/blogs", blogsControllers);
